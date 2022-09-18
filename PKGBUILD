@@ -3,16 +3,14 @@
 _name=gp-saml-gui
 pkgname=$_name-git
 pkgver=r70.70b6cb3
-pkgrel=1
+pkgrel=2
 pkgdesc='Interactively authenticate to GlobalProtect VPNs that require SAML'
 arch=(any)
 url="https://github.com/lkrms/$_name"
 license=('GPL3')
 provides=($_name)
 conflicts=($_name)
-depends=('python' 'python-requests' 'python-gobject')
-optdepends=('webkit2gtk: webview provider'
-			'python-pywebview: alternative webview provider')
+depends=('python' 'python-requests' 'webkit2gtk' 'python-gobject')
 makedepends=('git')
 source=("${_name}::git+${url}#branch=lkrms/pywebview" 'gp-saml-gui.sh')
 b2sums=('SKIP'
