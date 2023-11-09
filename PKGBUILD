@@ -2,8 +2,8 @@
 # Contributor: Jamie Magee <jamie dot magee at gmail dot com>
 _name=gp-saml-gui
 pkgname=$_name-git
-pkgver=r70.70b6cb3
-pkgrel=2
+pkgver=r85.3dd34d4
+pkgrel=1
 pkgdesc='Interactively authenticate to GlobalProtect VPNs that require SAML'
 arch=(any)
 url="https://github.com/lkrms/$_name"

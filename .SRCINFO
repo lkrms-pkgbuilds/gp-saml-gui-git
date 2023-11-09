@@ -1,7 +1,7 @@
 pkgbase = gp-saml-gui-git
 	pkgdesc = Interactively authenticate to GlobalProtect VPNs that require SAML
-	pkgver = r70.70b6cb3
-	pkgrel = 2
+	pkgver = r85.3dd34d4
+	pkgrel = 1
 	url = https://github.com/lkrms/gp-saml-gui
 	arch = any
 	license = GPL3
